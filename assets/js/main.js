@@ -28,3 +28,25 @@ Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa 
 /*const PI = 3.1416;
 
 console.log(PI);*/
+
+/*
+Esercizio 2/C
+Dichiara una variabile chiamata radius e assegnale il valore 8.
+Moltiplica radius x 2 e x PI e assegna il valore a una variabile di nome circle.
+Stampa il valore della variabile circle in console.
+*/
+
+let radius = 8
+
+console.log(radius);
+
+radius = 8*2;
+
+console.log(radius);
+
+
+
+const circle = (radius * PI)
+
+console.log(circle);
+
