@@ -107,3 +107,27 @@ Entrambi restituiscono un messaggio alla console attraverso un metodo statico, m
 
 console.info('Il mio messaggio')
 
+/*
+Esercizio 7: Differenza tra var e let
+Scrivete un piccolo blocco di codice che utilizza un blocco if per vedere come var e let si comportano diversamente rispetto allo scope.
+Non soffermatevi per ora sul significato di scope, vi verrà spiegato, è solo il limite di visibilità di una variabile.
+if (true) {
+    var variabileVar = "Sono definita con var";
+    let variabileLet = "Sono definita con let";
+}
+console.log(variabileVar);
+console.log(variabileLet);
+Scrivete in un commento dopo i 2 console.log che cosa sta succedendo ...
+
+
+*/
+
+if (true) {
+    var variabileVar = "Sono definita con var";
+    let variabileLet = "Sono definita con let";
+}
+console.log(variabileVar);
+console.log(variabileLet);
+/*In questo caso la variabileLet non è definita perche non è soggetta a hoisting a differenza di variabileVar che lo è, ed ha quindi la capacità di essere letta prima di tutte le
+variabili e le funzioni dichiarate nello script e consentirne l’uso anche prima della
+dichiarazione stessa. Le funzioni potranno essere utilizzate, finché siamo all’interno dello stesso scope*/
