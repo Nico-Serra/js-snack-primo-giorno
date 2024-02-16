@@ -74,3 +74,16 @@ name = ('Marco')
 
 console.log(name);
 
+/*
+Esercizio 4
+Dichiara una variabile chiamata temperature e assegnale il valore 22.5. Successivamente, aumenta il suo valore di 5 e stampa il nuovo valore in console.
+temperatura = 22.5 // Float
+temperatura (update) = 27.5 // Float
+*/
+
+let temperatura = 22.5;
+console.log(temperatura);
+
+temperatura = (22.5 + 5);
+console.log(temperatura);
+
