@@ -13,7 +13,7 @@ console.log(number);
 /*
 Esercizio 2
 Dichiara una costante chiamata PI e assegnale il valore di 3.14. Stampa il valore della costante in console.
-PI = 3.14; // number
+PI = 3.14; // float
 */
 
 const PI = 3.14;
