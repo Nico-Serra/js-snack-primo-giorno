@@ -95,3 +95,15 @@ Rispondete in un commento a più righe: Che differenza c'è tra il numero 3.14 e
 Il numero 3.14 è un numero decimale ovvero in programmazione è un Float mentre il numero 100 è un numero intero che in programmazione può essere definito number
 */
 
+/*
+Esercizio 6: console
+Per scrivere dentro la nostra console utilizziamo la sua funzione .log() ma se scrivessimo console.info('Il mio messaggio') che differenza c'è? Perche?
+Esistono altri metodi da usare con console. ?
+(aiutatevi con una ricerca su internet per tennere allenate il vostro brain)
+
+
+Entrambi restituiscono un messaggio alla console attraverso un metodo statico, ma a differenza di console.info che può essere una singola stringa, console.log può essere anche uno o più oggetti JavaScript
+*/
+
+console.info('Il mio messaggio')
+
