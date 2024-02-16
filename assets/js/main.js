@@ -87,3 +87,11 @@ console.log(temperatura);
 temperatura = (22.5 + 5);
 console.log(temperatura);
 
+/*
+Esercizio 5: Numeri
+Rispondete in un commento a più righe: Che differenza c'è tra il numero 3.14 e 100 sono diversi? Perchè? Che tipo di dato è uno e che tipo di dato è l'altro?
+(aiutatevi con una ricerca su google per allenare il vostro cerebro)
+
+Il numero 3.14 è un numero decimale ovvero in programmazione è un Float mentre il numero 100 è un numero intero che in programmazione può essere definito number
+*/
+
